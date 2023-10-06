@@ -1,0 +1,10 @@
+/* Add this CSS to your stylesheet */
+.spotify-player {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100px; /* Adjust the width as needed */
+    height: 100%; /* Make it cover the entire viewport height */
+    background-color: #fff; /* Set a background color if needed */
+    z-index: 999; /* Ensure it's above other content */
+}

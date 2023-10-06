@@ -1,0 +1,15 @@
+body {
+    animation: blinkingBackground 0.1s infinite;
+  }
+  
+  @keyframes blinkingBackground {
+    0% {
+      background-color: white;
+    }
+    50% {
+      background-color: black;
+    }
+    100% {
+      background-color: white;
+    }
+  }
